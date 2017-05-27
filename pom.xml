@@ -18,9 +18,8 @@
 	</description>
 	
 	<scm>
-		<url>https://github.com/villasjancsi/cardgame</url>
-		<connection>scm:git:git://github.com/villasjancsi/cardgame.git</connection>
-		<developerConnection>scm:git:git@github.com:villasjancsi/cardgame.git</developerConnection>
+		<url>https://github.com/villasjancsi/carcardgame</url>
+		<connection>scm:git:https://github.com/villasjancsi/carcardgame.git</connection>
 	</scm>
 	
 	<developers>
