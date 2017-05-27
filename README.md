@@ -21,7 +21,7 @@ ID | Name | HP | Top speed | Acceleration
 
 To call, wait for the promt, and type:
 
-        Card index, property index): id[space]propertyid[enter]
+        (Card index, property index): id[space]propertyid[enter]
 
 where id is in the first column, and property ids are the following:
 
