@@ -13,10 +13,12 @@ The player with better values wins the round. You'll have to play against the co
 
 ### Call a card
 The player can see a table containing own cards:
+
 ID | Name | HP | Top speed | Acceleration
 -- | ---- | -- | --------- | ------------
 01 | Lamborghini Aventador | 800 HP | 350 km/h | 2.9 sec
 02 | Audi R8 | 611 HP | 330 km/h | 3.2 sec
+
 To call, wait for the promt, and type:
 
         Card index, property index): id[space]propertyid[enter]
