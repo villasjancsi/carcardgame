@@ -47,6 +47,10 @@ where id is in the first column, and property ids are the following:
 #### Site:
         mvn site
 
+### Requirements
+* Apache Maven
+* Oracle JDK 8
+
 ### Developing environment
 * Eclipse
 
