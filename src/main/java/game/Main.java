@@ -57,11 +57,29 @@ public class Main {
 			}
 			int cardIndex = 0;
 			int propertyIndex = 0;
-			do {
+			while(true) {
 				System.out.print("(Card index, property index): ");
-				cardIndex = scanner.nextInt();
-				propertyIndex = scanner.nextInt();
-			} while (!game.call(--cardIndex, --propertyIndex));
+				String line = "";
+				try {
+					line = scanner.nextLine();
+				} catch (Exception e) {
+					return;
+				}
+				if(!line.contains(" "))
+					continue;
+				String[] str = line.split(" ");
+				if(str.length != 2)
+					continue;
+				try {
+					cardIndex = Integer.valueOf(str[0]);
+					propertyIndex = Integer.valueOf(str[1]);
+					if(!game.call(--cardIndex, --propertyIndex))
+						continue;
+					break;
+				} catch (Exception e) {
+					continue;
+				}
+			}
 			Card computersCard = game.computersCard();
 			System.out.println("Computer's card: ");
 			System.out.println(cardString(computersCard, 0));
